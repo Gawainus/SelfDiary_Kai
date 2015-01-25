@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		521576701A6C3CC400E21169 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5215766F1A6C3CC400E21169 /* AppDelegate.swift */; };
 		521576731A6C3CC400E21169 /* SelfDiary_Kai.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 521576711A6C3CC400E21169 /* SelfDiary_Kai.xcdatamodeld */; };
-		521576751A6C3CC400E21169 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521576741A6C3CC400E21169 /* ViewController.swift */; };
 		521576781A6C3CC400E21169 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521576761A6C3CC400E21169 /* Main.storyboard */; };
 		5215767A1A6C3CC400E21169 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521576791A6C3CC400E21169 /* Images.xcassets */; };
 		5215767D1A6C3CC400E21169 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5215767B1A6C3CC400E21169 /* LaunchScreen.xib */; };
 		521576891A6C3CC400E21169 /* SelfDiary_KaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521576881A6C3CC400E21169 /* SelfDiary_KaiTests.swift */; };
+		521576971A6C3F9700E21169 /* MainInterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521576961A6C3F9700E21169 /* MainInterfaceViewController.swift */; };
+		521576991A6C47B700E21169 /* Selfie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521576981A6C47B700E21169 /* Selfie.swift */; };
+		5215769D1A6C4B5B00E21169 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5215769C1A6C4B5B00E21169 /* DisplayViewController.swift */; };
+		5215769F1A6C4B7E00E21169 /* SelfiesTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5215769E1A6C4B7E00E21169 /* SelfiesTableTableViewController.swift */; };
+		521576A51A6C578100E21169 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521576A41A6C578100E21169 /* CameraViewController.swift */; };
+		521576A71A6C57C600E21169 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521576A61A6C57C600E21169 /* DescriptionViewController.swift */; };
+		52755F1D1A6C5F2F00B4649F /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52755F1C1A6C5F2F00B4649F /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +37,19 @@
 		5215766E1A6C3CC300E21169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5215766F1A6C3CC400E21169 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		521576721A6C3CC400E21169 /* SelfDiary_Kai.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SelfDiary_Kai.xcdatamodel; sourceTree = "<group>"; };
-		521576741A6C3CC400E21169 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		521576771A6C3CC400E21169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		521576791A6C3CC400E21169 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5215767C1A6C3CC400E21169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		521576821A6C3CC400E21169 /* SelfDiary_KaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfDiary_KaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		521576871A6C3CC400E21169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		521576881A6C3CC400E21169 /* SelfDiary_KaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfDiary_KaiTests.swift; sourceTree = "<group>"; };
+		521576961A6C3F9700E21169 /* MainInterfaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInterfaceViewController.swift; sourceTree = "<group>"; };
+		521576981A6C47B700E21169 /* Selfie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Selfie.swift; sourceTree = "<group>"; };
+		5215769C1A6C4B5B00E21169 /* DisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
+		5215769E1A6C4B7E00E21169 /* SelfiesTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfiesTableTableViewController.swift; sourceTree = "<group>"; };
+		521576A41A6C578100E21169 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		521576A61A6C57C600E21169 /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
+		52755F1C1A6C5F2F00B4649F /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +92,13 @@
 			isa = PBXGroup;
 			children = (
 				5215766F1A6C3CC400E21169 /* AppDelegate.swift */,
-				521576741A6C3CC400E21169 /* ViewController.swift */,
+				521576981A6C47B700E21169 /* Selfie.swift */,
+				521576961A6C3F9700E21169 /* MainInterfaceViewController.swift */,
+				521576A41A6C578100E21169 /* CameraViewController.swift */,
+				521576A61A6C57C600E21169 /* DescriptionViewController.swift */,
+				5215769E1A6C4B7E00E21169 /* SelfiesTableTableViewController.swift */,
+				5215769C1A6C4B5B00E21169 /* DisplayViewController.swift */,
+				52755F1C1A6C5F2F00B4649F /* InfoViewController.swift */,
 				521576761A6C3CC400E21169 /* Main.storyboard */,
 				521576791A6C3CC400E21169 /* Images.xcassets */,
 				5215767B1A6C3CC400E21169 /* LaunchScreen.xib */,
@@ -215,9 +233,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				521576751A6C3CC400E21169 /* ViewController.swift in Sources */,
 				521576701A6C3CC400E21169 /* AppDelegate.swift in Sources */,
+				5215769D1A6C4B5B00E21169 /* DisplayViewController.swift in Sources */,
+				5215769F1A6C4B7E00E21169 /* SelfiesTableTableViewController.swift in Sources */,
 				521576731A6C3CC400E21169 /* SelfDiary_Kai.xcdatamodeld in Sources */,
+				52755F1D1A6C5F2F00B4649F /* InfoViewController.swift in Sources */,
+				521576A51A6C578100E21169 /* CameraViewController.swift in Sources */,
+				521576A71A6C57C600E21169 /* DescriptionViewController.swift in Sources */,
+				521576971A6C3F9700E21169 /* MainInterfaceViewController.swift in Sources */,
+				521576991A6C47B700E21169 /* Selfie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +433,7 @@
 				5215768E1A6C3CC400E21169 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5215768F1A6C3CC400E21169 /* Build configuration list for PBXNativeTarget "SelfDiary_KaiTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +442,7 @@
 				521576911A6C3CC400E21169 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
